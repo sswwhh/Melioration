@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="MeliorationTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="subtitleTextColor">@color/accent</item>
+        <item name="actionBarStyle">@style/Toolbar</item>
+        <!--<item name="searchViewStyle">@style/SearchViewMy</item>-->
+    </style>
+
+    <style name="MeliorationTheme.Toolbar" parent="MeliorationTheme">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="ContainerWithBackground">
+        <item name="android:background">@drawable/_main_gradient</item>
+    </style>
+
+    <style name="EditText" parent="@style/Widget.AppCompat.EditText"><!--@android:style/Widget.EditText-->
+        <item name="colorControlNormal">@color/accent_disabled</item>
+        <item name="colorControlActivated">@color/primary</item>
+        <item name="colorControlHighlight">@color/primary</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">@drawable/_main_gradient</item>
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/action_bar_bg</item>
+    </style>
+
+
+    <style name="WithoutBackground">
+        <item name="android:background">@null</item>
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Melioration</string>
+    <string name="cascade_name">Каскад</string>
+
+
+    <string name="gradient_angle">180</string>
+
+
+    <!--Cascade View-->
+    <string name="cascade_card_title">Простой титль</string>
+
+</resources>

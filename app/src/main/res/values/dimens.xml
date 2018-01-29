@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Toolbar-->
+    <dimen name="toolbar_height">60dp</dimen>
+    <dimen name="toolbar_logo_height">50dp</dimen>
+
+    <!--Margins-->
+    <dimen name="big_margin">16dp</dimen>
+    <dimen name="middle_margin">8dp</dimen>
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="smallest_margin">2dp</dimen>
+    <dimen name="_12sdp">12sp</dimen>
+    <dimen name="_100sdp">100dp</dimen>
+
+</resources>

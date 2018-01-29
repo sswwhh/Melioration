@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WithoutBackground"
+    android:id="@+id/toolbar_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height">
+
+        <android.support.v7.widget.Toolbar
+            style="@style/Toolbar"
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:elevation="@dimen/small_margin"
+            android:theme="@style/MeliorationTheme.Toolbar"/>
+    </android.support.design.widget.AppBarLayout>
+
+</RelativeLayout>

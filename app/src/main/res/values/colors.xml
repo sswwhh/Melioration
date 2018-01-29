@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#3F51B5</color>
+    <color name="primary_light">#E0D3D3</color>
+    <color name="primary_dark">#596168</color>
+
+    <color name="accent">#FF4081</color>
+    <color name="accent_disabled">#bfbfbf</color>
+    <color name="accent_trans">#CCFFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+
+    <!--Basic-->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--Gradient-->
+    <color name="first">#6e6e6e</color>
+    <color name="second">#1b1b1b</color>
+
+    <!--Buttons-->
+    <color name="blue_light">#5E98E7</color>
+    <color name="green_light">#47B3C3</color>
+
+</resources>
